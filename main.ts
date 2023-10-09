@@ -8,7 +8,7 @@
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   pins.digitalWritePin(DigitalPin.P15, 1)
   pins.digitalWritePin(DigitalPin.P16, 1)
   pins.digitalWritePin(DigitalPin.P12, 1)
